@@ -25,5 +25,44 @@
     margin: 16px 0;
     font-family: 'Dancing Script', cursive;
     font-size: 28px;
+}
+.filter-section .ad-list ul{
+ list-style: none;
+}
+.filter-section .ad-list .list-part ul li{
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
     
+}
+.filter-section .ad-list ul li a{
+    font-size: 16px;
+    color: rgb(0, 0, 0,0.5);
+    padding: 10px 12px;
+
+}
+.filter-section .ad-list ul li a:hover{
+    background: rgba(13,12,34,0.05);
+    padding: 10px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.filter-section .ad-list .list-part{
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.filter-section .ad-list{
+    border-bottom: 1px solid rgb(0, 0, 0,0.5) ;
+}
+#submit {
+    margin-top: 2rem;
+}
+.filter-list{
+    display: none;
+}
+.searchVisible {
+    display: block;
+    transition: width 2s;
 }
