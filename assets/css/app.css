@@ -66,3 +66,119 @@
     display: block;
     transition: width 2s;
 }
+
+.container h5 {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.ad-main .single-ad{
+    border-radius: 3px;
+    margin-bottom: 2rem;
+}
+.ad-main .single-ad .single-card  h2 a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+.ad-main .single-ad .single-card  h2 .display-name{
+    font-size: 14px;
+    color: #3D3D4E;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ad-main .single-ad  h2{
+    font-size: 13px;
+    margin: 5px 0;
+}
+.single-ad .img-container {
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    position: relative;
+}
+.single-ad .img-container .img-element {
+    position: absolute;
+    color: #fff;
+    right: 10px;
+    top: 10px;
+    opacity: 2;
+    transition: all .2s linear;
+} 
+.single-ad .img-container .ad-tittle {
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all .2s linear;
+} 
+.ad-main .single-ad .single-card  h2 ul{
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    color: #3D3D4E;
+    text-align: right;
+    margin-left: 5px;
+}
+.f-count {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    padding-right: 14px;
+}
+.f-count > a{
+	display: inline-block;
+	min-width: 30px;
+	padding: 5px;
+	color: #3D3D4E;
+	text-align: center;
+    border-radius: 20px;
+    border: 1px solid #3D3D4E;
+}
+.img-item{
+	display: inline-block;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 25px !important;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+.ad-tittle{
+	display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    
+}
+.ad-tittle h4{
+    color: #fff;
+    font-size: 14px;
+    padding-left: 10px;
+    font-family: 'pacifico', sans-serif;
+}
+.single .img-container img{
+	width: 350px;
+	transition: all 0.25s linear;
+	opacity: 0.5;
+}
+.single-ad .img-container:hover img{
+	transform: scale(1.10, 1.10);
+	opacity: 1;
+}
+.single-ad .img-container:hover .ad-tittle{
+	opacity: 2;
+}
+.btn-outline-success{
+    color: #00BFA6;
+    border-color: #00BFA6;
+}
+.btn-outline-success:hover{
+    background: #00BFA6;
+    color: #fff;
+}
+.fixed-bottom-nav nav ul{
+    display: inline-block;
+}

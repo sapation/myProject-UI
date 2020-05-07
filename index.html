@@ -29,6 +29,16 @@
               </li>
             </ul>
             <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Profile
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Profile</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">logout</a>
+                </div>
+              </li>
               <li class="nav-item mr-4">
                 <a class="nav-link" href="#">Login</a>
               </li>
@@ -39,6 +49,9 @@
           </div>
         </nav>
       </div>
+    </div>
+    <div class="container-fluid fixed-bottom-nav">
+      
     </div>
     <div style="background:#F9F8FD">
       <div class="container py-5">
@@ -71,7 +84,7 @@
               </ul>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center btn-part">
-              <button class="btn btn-outline-success" id="form-toggle" onclick="toSearch()" type="button">Filter Content</button>
+              <a class="" id="form-toggle" onclick="toSearch()"><i class="fa fa-search"></i></i></a>
             </div>
           </div>
         </div>
@@ -81,14 +94,14 @@
           <div class="row pt-3">
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 ">
               <div class="form-group">
-                <label for="exampleFormControlInput1">Location</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1">Location:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter location you need accpmodation">
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5 ">
               <div class="form-group">
-                <label for="exampleFormControlInput1">Facility Type</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                <label for="exampleFormControlInput1">Facility Type:</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter the type,eg Hotel or Hostel">
               </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 d-flex justify-content-md-start justify-content-sm-center justify-content-lg-start">
@@ -100,11 +113,261 @@
     </div>
     </header>
 
+    <main class="main-section">
+      <section class="ad-main">
+        <div class="container">
+          <h5>Trending.....</h5>
+          <hr>
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3  single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+                <div class="ad-tittle">
+                  <h4>Soweto Villa</h4>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#"><i class="fa fa-eye"></i></a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 single-ad">
+              <div class="single-card">
+               <figure class="img-container">
+                <img src="images/1.jpeg" class="card-img-top" alt="...">
+                <div class="img-element">
+                  <a href="#" class="img-item">
+                    <i class="fas fa-heart"></i>  
+                  </a>
+                  <span class="img-item">26</span>
+                </div>
+               </figure>
+                <h2>
+                  <a href="">
+                  <img src="images/profile.jpeg" alt="" srcset="">
+                  
+                  <span class="display-name">Sapation</span>
+                  </a> 
+                  <div class="f-count">
+                    <a href="#">321</a>
+                    <a href="#">Open</a>
+                  </div>
+                   
+                  </ul>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="library/js/jquery.min.js" crossorigin="anonymous"></script>
     <script src="library/js/popper.min.js" crossorigin="anonymous"></script>
     <script src="library/js/bootstrap.min.js" crossorigin="anonymous"></script>
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/all.min.js"></script>
   </body>
 </html>
