@@ -1,3 +1,4 @@
+
 function toSearch(){
     var searchIcon = document.getElementById('searchForm');
     var toggleBtn = document.getElementById('form-toggle');
@@ -9,8 +10,6 @@ function toSearch(){
     }
    
  }
-
-//  baguetteBox.run('.compact-gallery', { animation: 'slideIn' });
 
 // Open the Modal
 function openModal() {
