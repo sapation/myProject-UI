@@ -119,6 +119,7 @@
     opacity: 2;
     transition: all .2s linear;
 } 
+
 .single-ad .img-container .ad-tittle {
     position: absolute;
     color: #fff;
@@ -295,10 +296,10 @@
   }
   
   /* Create four equal columns that floats next to eachother */
-  .column {
+  /* .column {
     float: left;
     width: 25%;
-  }
+  } */
   
   /* The Modal (background) */
   .modal {
@@ -407,5 +408,18 @@
   .hover-shadow:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
+
+  .ad-head .ad-profile img{
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+  }
   
-  
+  .ad-head .ad-title h3{
+      text-transform: uppercase;
+  }
+  @media only screen and (max-width: 600px){
+    .mySlides img{
+        height: 130%;
+    }
+  }
