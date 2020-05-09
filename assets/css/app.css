@@ -422,8 +422,37 @@
   .ad-head .ad-title h3{
       text-transform: uppercase;
   }
+
+  .main-section .profile-top {
+      background: #F9F8FD;
+      height: 200px;
+      margin-bottom: 30px;
+  }
+
+.main-section .profile-top .profile-img img{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+.main-section .login-img img{
+    width: 100%;
+    margin: 2.5rem;
+}
+
+.main-section .login-side{
+    background: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
+}
+.main-section .login-side h4{
+    text-align: center;
+}
+.main-section .login-side fieldset{
+    margin: 2.5rem;
+}
   @media only screen and (max-width: 600px){
     .mySlides img{
         height: 130%;
+    }
+    .main-section .login-img{
+       display: none;
     }
   }
