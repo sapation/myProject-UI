@@ -1,6 +1,12 @@
 {% extends "base.html" %}
     
 {% block app_content %}
+<header class="">
+  <div class="menu-head shadow-sm" >
+    <div class="container">
+    {% include '_main_navbar.html' %}
+  </div>
+</div>
     <div style="background:#F9F8FD">
       <div class="container py-5">
         <div class="row ">
@@ -311,5 +317,5 @@
         </div>
       </section>
     </main>
-
+    {% include '_main-footer.html' %}
     {% endblock app_content %}

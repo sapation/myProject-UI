@@ -18,87 +18,22 @@
   <body>
     <!-- header section -->
     
-    <header class="">
-      <div class="menu-head shadow-sm" >
-        <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-          <a class="navbar-brand" href="{{ url_for('index') }}">EasyRent</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarText">
-            
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item profile-img"><img src="{{ url_for('static', filename='images/profile.jpeg') }}" alt="" srcset=""></li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Profile
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="{{ url_for('profile') }}">Profile</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">logout</a>
-                </div>
-              </li>
-              <li class="nav-item mr-4">
-                <a class="nav-link" href="{{ url_for('login') }}">Login</a>
-              </li>
-            </ul>
-            <form class="form-inline">
-              <a class="btn btn-outline-success" type="button" href="{{ url_for('register') }}">Sign Up</a>
-            </form>
-          </div>
-        </nav>
-      </div>
-    </div>
-
-      {% block app_content%}{% endblock app_content%}
+      {% block app_content%}
+      
+      
+      {% endblock app_content%}
      <!-- footer section -->
-     <footer class="main-footer">
-        <div class="container">
-          <div class="sub-footer-one">
-            <div class="row">
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <a href="#"><h4>EasyRent</h4></a>
-               <p>
-                Showing all the luxury accomodation
-               </p>
-                <p>We help people to showcase their accomodation which are available for rent </p>
-              </div>
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <h4>EasyRent</h4>
-                <ul>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-                  <li><a href="">Help</a></li>
-                  <li><a href="">Terms</a></li>
-                </ul>
-              </div>
-              <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 ">
-                <h4>Connect</h4>
-                <p>Link us on the following media</p>
-                <div class="social-connect">
-                <a href="" class="social"><i class="fab fa-facebook-f"></i></a>
-                <a href="" class="social"><i class="fab fa-twitter"></i></a>
-                <a href="" class="social"><i class="fab fa-instagram"></i></a>
-                <a href="" class="social"><i class="fab fa-youtube"></i></a>
-              </div>
-              </div>
-          </div>
-          </div>
-        </div>
-        <div class="sub-footer-two ">
-          <p>EasyRent &copy; 2020 limited</p>
-        </div>
-      </footer>
-  
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      <script src="{{ url_for('static',filename='library/js/jquery.min.js') }}" crossorigin="anonymous"></script>
-      <script src="{{ url_for('static', filename= 'library/js/popper.min.js') }}" crossorigin="anonymous"></script>
-      <script src="{{ url_for('static', filename='library/js/bootstrap.min.js') }}" crossorigin="anonymous"></script>
-      <script src="{{ url_for('static', filename='assets/js/app.js') }}"></script>
-      <script src="{{ url_for('static', filename='assets/js/all.min.js') }}"></script>
-      <script src="{{ url_for('static', filename='library/js/bs4.pop.js') }}"></script>
-    </body>
+        
+       
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="{{ url_for('static',filename='library/js/jquery.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename= 'library/js/popper.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='library/js/bootstrap.min.js') }}" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='assets/js/app.js') }}"></script>
+    <script src="{{ url_for('static', filename='assets/js/all.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='library/js/bs4.pop.js') }}"></script>
+  </body>
   </html>
