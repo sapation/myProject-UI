@@ -12,13 +12,50 @@
     <main class="main-section">
        <div class="profile-top">
          <div class="container">
-            <div class="profile-img">
-                <img src="{{ url_for('static',filename='images/profile.jpeg') }}" alt="">
-            </div>
+           <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 pro-img">
+                <img src="{{ image_file }}">
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+              <h1>{{ current_user.name }}</h1>
+                   
+              <p>{{ current_user.email}}</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus error maiores consectetur commodi nesciunt nisi natus deleniti cum obcaecati eveniet?</p>
+               <P>
+                 <span><a class="btn btn-outline-info" id="btnproImg">Edit profile img</a></span>
+                 <span><a class="btn btn-outline-success" id="btnproInfo">
+                   Update Info
+                 </a></span>
+               </P>
+             </div>
+           </div>
          </div>
        </div>
       
     </main>
 
     {% include '_main-footer.html' %}
+
+   
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="modal-content">
+  <div class="modal-header">
+    <span class="close">&times;</span>
+    <h2>Modal Header</h2>
+  </div>
+  <div class="modal-body">
+    <p>Some text in the Modal Body</p>
+    <p>Some other text...</p>
+  </div>
+  <div class="modal-footer">
+    <h3>Modal Footer</h3>
+  </div>
+</div>
+
+</div>
     {% endblock app_content %}
+
+  
+  

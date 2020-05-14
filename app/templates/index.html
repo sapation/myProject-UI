@@ -311,9 +311,9 @@
       </section>
       <section class="signin-prop">
         <div class="signin-p">
-          <a href="http://" class="btn btn-outline-success" id="signUp">Sign up to Continue</a>
+          <a href="{{ url_for('register')}}" class="btn btn-outline-success" id="signUp">Sign up to Continue</a>
           or
-          <a href="http://" class="btn" id="signIn">Sign in</a>
+          <a href="{{ url_for('login')}}" class="btn" id="signIn">Sign in</a>
         </div>
       </section>
     </main>
